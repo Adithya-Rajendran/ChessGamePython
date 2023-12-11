@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50ee8dd-4215-4e8f-af1e-e1088597d576" name="Changes" comment="Structuring">
-      <change afterPath="$PROJECT_DIR$/Assets/board.png" afterDir="false" />
+    <list default="true" id="f50ee8dd-4215-4e8f-af1e-e1088597d576" name="Changes" comment="Added some comments as to what each file should do">
+      <change afterPath="$PROJECT_DIR$/chess/engine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChessPiecesArray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/bB.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/bB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/bK.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/bK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/bN.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/bN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/bP.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/bP.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/bQ.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/bQ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/bR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/bR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/wB.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/wB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/wK.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/wK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/wN.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/wN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/wP.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/wP.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/wQ.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/wQ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pieces/wR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pieces/wR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/pieces/pieces.py" beforeDir="false" afterPath="$PROJECT_DIR$/chess/pieces/pieces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -161,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702265486542</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated the images">
+      <option name="closed" value="true" />
+      <created>1702269009778</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702269009778</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added some comments as to what each file should do">
+      <option name="closed" value="true" />
+      <created>1702277787522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702277787522</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,17 +186,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Added Chess Pieces' Images" />
     <MESSAGE value="Structuring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structuring" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Updated the images" />
+    <MESSAGE value="Added some comments as to what each file should do" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some comments as to what each file should do" />
   </component>
 </project>
