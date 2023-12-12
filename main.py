@@ -6,8 +6,7 @@ import pygame
 WIDTH = HEIGHT = 512  # width and height of the chess board
 
 
-def main():
-    pygame.init()
+def run_game():
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     original_background = pygame.image.load("Assets/board.png")
     background = pygame.transform.scale(original_background, (WIDTH, HEIGHT))
@@ -19,10 +18,18 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
+                break
 
         pygame.display.update()
 
-    pygame.quit()
+
+def main():
+    try:
+        pygame.init()
+        run_game()
+
+    finally:
+        pygame.quit()
 
 
 # Press the green button in the gutter to run the script.
