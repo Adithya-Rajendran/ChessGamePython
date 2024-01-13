@@ -5,13 +5,13 @@ __pycache__/
 *.pyd
 
 # Virtual environment
-venv/
+.venv
 
 # Chess game logs
-logs/
+logs
 
 # Chess game saved states or data
-data/
+data
 
 # Compiled Python files
 *.pyc
@@ -20,7 +20,7 @@ data/
 .ipynb_checkpoints
 
 # VS Code settings
-.vscode/
+.vscode
 
 # Ignore local development settings
 *.env
@@ -29,7 +29,7 @@ data/
 *.sqlite3
 
 # Ignore IDE-specific files
-.idea/
+.idea
 
 # Ignore user-specific files
 *.suo
